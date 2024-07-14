@@ -1,0 +1,61 @@
+name: science_iran
+description:  دانشمندان فارسی زبان در زمینه ارتقای دانش در زمینه های علم و فناوری مانند نجوم، شیمی، آناتومی، زیست شناسی، گیاه شناسی، کیهان شناسی، ریاضیات، مهندسی و معماری فعال بوده اند. علم در ایران در دو مرحله اصلی تکامل یافت که با ورود و پذیرش گسترده اسلام در منطقه از هم جدا شد.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^5.1.0
+
+
+  lottie: ^2.6.0
+  bubble: ^1.2.1
+  easy_localization: ^3.0.2
+  carousel_slider: ^4.2.1
+  flutter_animate: ^4.2.0+1
+
+  youtube_player_iframe: ^4.0.4
+  youtube_player_flutter: ^8.1.2
+  flutter_screenutil: ^5.9.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/lotties/
+    - assets/languages/
+
+
+  fonts:
+    - family: IRN
+      fonts:
+         - asset: assets/fonts/irs.ttf
+
+    - family: CIN
+      fonts:
+         - asset: assets/fonts/Lalezar-Regular.ttf
